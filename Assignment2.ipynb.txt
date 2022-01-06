@@ -1,0 +1,75 @@
+1.What are the two values of the Boolean data type? How do you write them?
+
+*Two values of the Boolean data type is True, False.
+*<class ‘bool’> indicates the variable is a boolean data type.
+*Using bool() function, we can return or convert a value to boolean value.
+
+Eg:
+a=10
+b=5
+bool(a>b)
+
+Output:
+True
+
+
+
+
+2. What are the three different types of Boolean operators?
+
+Three different types of Boolean operators are:
+    *and
+    *or
+ *not
+ 
+ 
+ 3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+ 
+ AND Truth Table
+ ---------------
+  x	    and	 y	   Returns
+  
+ TRUE	and	TRUE	TRUE
+ TRUE	and	FALSE	FALSE
+ FALSE	and	TRUE	FALSE
+ FALSE	and	FALSE	FALSE
+ 
+ 
+ OR Truth Table
+ --------------
+  x	    or	 y	  Returns
+  
+ True	or	True	True
+ True	or	False	True
+ False	or	True	True
+ False	or	False	False
+ 
+ NOT Truth Table
+ ---------------
+ not	 x	   Returns
+ 
+ not	True	False
+ not	False	True
+ 
+ 
+ 
+ 
+ 4. What are the values of the following expressions?
+ 
+ (5 > 4) and (3 == 5) --> False
+ not (5 > 4) --> False
+ (5 > 4) or (3 == 5) --> True
+ not ((5 > 4) or (3 == 5)) --> False
+ (True and True) and (True == False) --> False
+ (not False) or (not True) --> True
+ 
+ 
+ 5.What are the six comparison operators?
+ 
+ Six comparison operators are:
+ *Less than(<)
+ *Greater than(>)
+ *Less than or equal to(<=)
+ *Greater than or equal to(>=)
+ *Equal to(==)
+ *Not equal to (!=)
